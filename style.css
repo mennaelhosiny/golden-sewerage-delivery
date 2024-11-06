@@ -226,3 +226,16 @@
           height: 30px;
         }
       }
+
+
+      @media (max-width: 991px) {
+        .overlay h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+          }
+          
+          .overlay p {
+            font-size: 1rem;
+            max-width: 600px;
+          }
+      }
